@@ -1,4 +1,22 @@
-## Introduction
+## Getting Started
+
+Download the dataset to `household_power_consumption.zip`.  Place in
+the same working directory as the plot scripts.
+
+Run R in batch mode to generate the four PNG plots:
+
+    R CMD BATCH plot1.R
+    R CMD BATCH plot2.R
+	R CMD BATCH plot3.R
+    R CMD BATCH plot4.R
+
+On a Unix-like system, one can run
+
+    make clean && make all
+
+to rebuild the plots.
+
+## Instructions
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
